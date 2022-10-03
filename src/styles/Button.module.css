@@ -13,6 +13,10 @@
     border-radius: 8px;
     cursor: pointer;
     border: 0px;
+    /* height: 44px; */
+}
+.button span {
+    color: #fff;
 }
 
 .button:hover {

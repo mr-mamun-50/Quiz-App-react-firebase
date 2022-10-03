@@ -3,11 +3,11 @@
 
 :root {
     --bodyBackground: #f2f4f8;
-    --successGreen: #00ff84;
-    --dangerRed: #ffc0c7;
+    --successGreen: #533483;
+    --dangerRed: #e94560;
     --questionBG: #e4e8ee;
-    --fontPrimary: #002333;
-    --active: #2dbf64;
+    --fontPrimary: #16213e;
+    --active: #0f3460;
 }
 
 * {
