@@ -22,15 +22,18 @@
     height: 50px;
     border-radius: 8px;
     margin-left: 10px;
-    background: #47f5901c;
+    background: var(--questionBG);
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
+.progressBar .next {
+    margin-right: 10px;
+}
 
 .progressBar .backButton:hover {
-    background: #47f5953a;
+    background: hsla(229, 20%, 57%, 0.253);
 }
 
 @media only screen and (max-width: 1024px) {

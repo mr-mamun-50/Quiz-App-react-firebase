@@ -1,0 +1,849 @@
+{
+    "videos": {
+        "1": {
+            "youtubeID": "jRq-cGMqmVk",
+            "title": "Laravel 9 multi auth bangla | Laravel user and admin login register | লারাভেল মাল্টি অথেন্টিকেশন",
+            "noq": 3
+        },
+        "2": {
+            "youtubeID": "0gR0DBux2qQ",
+            "title": "Social media with college management (post, like, comment, chatting) by laravel and mysql bangla",
+            "noq": 3
+        },
+        "3": {
+            "youtubeID": "ZwX8yGCs0go",
+            "title": "Secure website (http to https) free",
+            "noq": 2
+        },
+        "4": {
+            "youtubeID": "MVt9jnSQAkc",
+            "title": "How to create a console application with custom icon by C programming",
+            "noq": 2
+        },
+        "5": {
+            "youtubeID": "jy-jOw374g4",
+            "title": "Premium resource provider web application by laravel and mysql (User and Admin panel) bangla",
+            "noq": 2
+        },
+        "6": {
+            "youtubeID": "RGeZC_ZalkE",
+            "title": "CodeBlocks Environment Error Fixing(Bangla), CodeBlocks program don't run fixing",
+            "noq": 2
+        },
+        "7": {
+            "youtubeID": "XBiD8T2euM8",
+            "title": "Loop & Nested Loop- sum, reverse & count digits, palindrome number, prime number, pattern (C)",
+            "noq": 3
+        },
+        "8": {
+            "youtubeID": "ybCFqBsaUkk",
+            "title": "Windows & ubuntu dual boot, download ubuntu, create bootable pen drive ডুয়াল বুট উইন্ডোজ ও উবুন্টু",
+            "noq": 1
+        },
+        "9": {
+            "youtubeID": "o4_QjfiDSRw",
+            "title": "Blog application with Laravel bangla tutorial | ব্লগ অ্যাপ্লিকেশন তৈরি করুন লারাভেল দিয়ে",
+            "noq": 1
+        },
+        "10": {
+            "youtubeID": "Ygocvhy_28A",
+            "title": "Loop class-1(C programming)",
+            "noq": 1
+        }
+    },
+    "quiz": {
+        "jRq-cGMqmVk": {
+            "questions": [
+                {
+                    "title": "What is the method of a login request?",
+                    "options": [
+                        {
+                            "title": "GET"
+                        },
+                        {
+                            "title": "PUT"
+                        },
+                        {
+                            "title": "POST"
+                        },
+                        {
+                            "title": "PATCH"
+                        }
+                    ]
+                },
+                {
+                    "title": "Which of the following is not a valid authentication guard?",
+                    "options": [
+                        {
+                            "title": "web"
+                        },
+                        {
+                            "title": "internet"
+                        },
+                        {
+                            "title": "admin"
+                        },
+                        {
+                            "title": "user"
+                        }
+                    ]
+                },
+                {
+                    "title": "Which of the following are the authentication packages of Laravel?",
+                    "options": [
+                        {
+                            "title": "Laravel Jetstream"
+                        },
+                        {
+                            "title": "Laravel Sanctum"
+                        },
+                        {
+                            "title": "Laravel Chatify"
+                        },
+                        {
+                            "title": "All of the above"
+                        }
+                    ]
+                }
+            ]
+        },
+        "0gR0DBux2qQ": {
+            "questions": [
+                {
+                    "title": "How many types of post are there in this project?",
+                    "options": [
+                        {
+                            "title": "2"
+                        },
+                        {
+                            "title": "3"
+                        },
+                        {
+                            "title": "4"
+                        },
+                        {
+                            "title": "5"
+                        }
+                    ]
+                },
+                {
+                    "title": "How can add customizable textareas in this project?",
+                    "options": [
+                        {
+                            "title": "By using CKEditor"
+                        },
+                        {
+                            "title": "By using TinyMCE"
+                        },
+                        {
+                            "title": "By using Summernote"
+                        },
+                        {
+                            "title": "By using Froala"
+                        }
+                    ]
+                },
+                {
+                    "title": "By which API can we add chatting feature in this project?",
+                    "options": [
+                        {
+                            "title": "Pusher"
+                        },
+                        {
+                            "title": "PubNub"
+                        },
+                        {
+                            "title": "Twilio"
+                        },
+                        {
+                            "title": "All of the above"
+                        }
+                    ]
+                }
+            ]
+        },
+        "ZwX8yGCs0go": {
+            "questions": [
+                {
+                    "title": "How can we secure our website?",
+                    "options": [
+                        {
+                            "title": "By using SSL"
+                        },
+                        {
+                            "title": "By using TLS"
+                        },
+                        {
+                            "title": "By using HTTPS"
+                        },
+                        {
+                            "title": "By using HTTP"
+                        }
+                    ]
+                },
+                {
+                    "title": "Which of the following is not a valid SSL certificate?",
+                    "options": [
+                        {
+                            "title": "Comodo SSL"
+                        },
+                        {
+                            "title": "GoDaddy SSL"
+                        },
+                        {
+                            "title": "Let's Encrypt SSL"
+                        },
+                        {
+                            "title": "All of the above"
+                        }
+                    ]
+                }
+            ]
+        },
+        "MVt9jnSQAkc": {
+            "questions": [
+                {
+                    "title": "Which IDE is valid for creating a console application by C programming?",
+                    "options": [
+                        {
+                            "title": "By using CodeBlocks"
+                        },
+                        {
+                            "title": "By using DevC++"
+                        },
+                        {
+                            "title": "By using PyCharm"
+                        },
+                        {
+                            "title": "By using PHPStorm"
+                        }
+                    ]
+                },
+                {
+                    "title": "Which of the following is not a valid icon file format?",
+                    "options": [
+                        {
+                            "title": ".ico"
+                        },
+                        {
+                            "title": ".png"
+                        },
+                        {
+                            "title": ".jpg"
+                        },
+                        {
+                            "title": ".gif"
+                        }
+                    ]
+                }
+            ]
+        },
+        "jy-jOw374g4": {
+            "questions": [
+                {
+                    "title": "Which resources are available in this application?",
+                    "options": [
+                        {
+                            "title": "Programming books for free"
+                        },
+                        {
+                            "title": "Premium designs for free"
+                        },
+                        {
+                            "title": "Premium softwares for free"
+                        },
+                        {
+                            "title": "All of the above"
+                        }
+                    ]
+                },
+                {
+                    "title": "Which framework is not used in this application?",
+                    "options": [
+                        {
+                            "title": "Laravel"
+                        },
+                        {
+                            "title": "Bootstrap 5"
+                        },
+                        {
+                            "title": "CakePHP"
+                        },
+                        {
+                            "title": "Angular JS"
+                        }
+                    ]
+                }
+            ]
+        },
+        "RGeZC_ZalkE": {
+            "questions": [
+                {
+                    "title": "Which of the following is not a valid environment variable?",
+                    "options": [
+                        {
+                            "title": "PATH"
+                        },
+                        {
+                            "title": "HOME"
+                        },
+                        {
+                            "title": "TEMP"
+                        },
+                        {
+                            "title": "TMP"
+                        }
+                    ]
+                },
+                {
+                    "title": "What folder we add in the PATH environment variable?",
+                    "options": [
+                        {
+                            "title": "bin"
+                        },
+                        {
+                            "title": "lib"
+                        },
+                        {
+                            "title": "include"
+                        },
+                        {
+                            "title": "All of the above"
+                        }
+                    ]
+                }
+            ]
+        },
+        "XBiD8T2euM8": {
+            "questions": [
+                {
+                    "title": "Which of the following is not a valid programming language?",
+                    "options": [
+                        {
+                            "title": "C"
+                        },
+                        {
+                            "title": "C++"
+                        },
+                        {
+                            "title": "C#"
+                        },
+                        {
+                            "title": "C++#"
+                        }
+                    ]
+                },
+                {
+                    "title": "Which of the following is not a valid programming language?",
+                    "options": [
+                        {
+                            "title": "Java"
+                        },
+                        {
+                            "title": "JavaScript"
+                        },
+                        {
+                            "title": "JScript"
+                        },
+                        {
+                            "title": "JQuery"
+                        }
+                    ]
+                },
+                {
+                    "title": "Which of the following is not a valid programming language?",
+                    "options": [
+                        {
+                            "title": "Python"
+                        },
+                        {
+                            "title": "PHP"
+                        },
+                        {
+                            "title": "Perl"
+                        },
+                        {
+                            "title": "All of the above"
+                        }
+                    ]
+                }
+            ]
+        },
+        "ybCFqBsaUkk": {
+            "questions": [
+                {
+                    "title": "what is dual boot?",
+                    "options": [
+                        {
+                            "title": "installing two operating systems in one computer"
+                        },
+                        {
+                            "title": "installing two operating systems in two computers"
+                        },
+                        {
+                            "title": "installing two operating systems in one computer and one in another computer"
+                        },
+                        {
+                            "title": "installing two operating systems in two computers and one in another computer"
+                        }
+                    ]
+                }
+            ]
+        },
+        "o4_QjfiDSRw": {
+            "questions": [
+                {
+                    "title": "Which features are available in this application?",
+                    "options": [
+                        {
+                            "title": "Blog post"
+                        },
+                        {
+                            "title": "Question answer"
+                        },
+                        {
+                            "title": "Post Commenting"
+                        },
+                        {
+                            "title": "All of the above"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Ygocvhy_28A": {
+            "questions": [
+                {
+                    "title": "C programming is a ___",
+                    "options": [
+                        {
+                            "title": "High level language"
+                        },
+                        {
+                            "title": "Low level language"
+                        },
+                        {
+                            "title": "Mid level language"
+                        },
+                        {
+                            "title": "None of the above"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "answers": {
+        "jRq-cGMqmVk": {
+            "questions": [
+                {
+                    "title": "What is the method of a login request?",
+                    "options": [
+                        {
+                            "title": "GET"
+                        },
+                        {
+                            "title": "PUT"
+                        },
+                        {
+                            "title": "POST",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "PATCH"
+                        }
+                    ]
+                },
+                {
+                    "title": "Which of the following is not a valid authentication guard?",
+                    "options": [
+                        {
+                            "title": "web"
+                        },
+                        {
+                            "title": "internet",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "admin"
+                        },
+                        {
+                            "title": "user"
+                        }
+                    ]
+                },
+                {
+                    "title": "Which of the following are the authentication packages of Laravel?",
+                    "options": [
+                        {
+                            "title": "Laravel Jetstream",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "Laravel Sanctum",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "Laravel Chatify"
+                        },
+                        {
+                            "title": "All of the above"
+                        }
+                    ]
+                }
+            ]
+        },
+        "0gR0DBux2qQ": {
+            "questions": [
+                {
+                    "title": "How many types of post are there in this project?",
+                    "options": [
+                        {
+                            "title": "2"
+                        },
+                        {
+                            "title": "3",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "4"
+                        },
+                        {
+                            "title": "5"
+                        }
+                    ]
+                },
+                {
+                    "title": "How can add customizable textareas in this project?",
+                    "options": [
+                        {
+                            "title": "By using CKEditor",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "By using TinyMCE",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "By using Summernote",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "By using Froala",
+                            "isCorrect": true
+                        }
+                    ]
+                },
+                {
+                    "title": "By which API can we add chatting feature in this project?",
+                    "options": [
+                        {
+                            "title": "Pusher"
+                        },
+                        {
+                            "title": "PubNub"
+                        },
+                        {
+                            "title": "Twilio"
+                        },
+                        {
+                            "title": "All of the above",
+                            "isCorrect": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "ZwX8yGCs0go": {
+            "questions": [
+                {
+                    "title": "How can we secure our website?",
+                    "options": [
+                        {
+                            "title": "By using SSL",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "By using TLS",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "By using HTTPS"
+                        },
+                        {
+                            "title": "By using HTTP"
+                        }
+                    ]
+                },
+                {
+                    "title": "Which of the following is not a valid SSL certificate?",
+                    "options": [
+                        {
+                            "title": "Comodo SSL"
+                        },
+                        {
+                            "title": "GoDaddy SSL"
+                        },
+                        {
+                            "title": "Let's Encrypt SSL",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "All of the above"
+                        }
+                    ]
+                }
+            ]
+        },
+        "MVt9jnSQAkc": {
+            "questions": [
+                {
+                    "title": "Which IDE is valid for creating a console application by C programming?",
+                    "options": [
+                        {
+                            "title": "By using CodeBlocks",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "By using DevC++",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "By using PyCharm"
+                        },
+                        {
+                            "title": "By using PHPStorm"
+                        }
+                    ]
+                },
+                {
+                    "title": "Which of the following is not a valid icon file format?",
+                    "options": [
+                        {
+                            "title": ".ico"
+                        },
+                        {
+                            "title": ".png",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": ".jpg",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": ".gif",
+                            "isCorrect": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "jy-jOw374g4": {
+            "questions": [
+                {
+                    "title": "Which resources are available in this application?",
+                    "options": [
+                        {
+                            "title": "Programming books for free"
+                        },
+                        {
+                            "title": "Premium designs for free",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "Premium softwares for free",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "All of the above"
+                        }
+                    ]
+                },
+                {
+                    "title": "Which framework is not used in this application?",
+                    "options": [
+                        {
+                            "title": "Laravel"
+                        },
+                        {
+                            "title": "Bootstrap 5"
+                        },
+                        {
+                            "title": "CakePHP",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "Angular JS",
+                            "isCorrect": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "RGeZC_ZalkE": {
+            "questions": [
+                {
+                    "title": "Which of the following is not a valid environment variable?",
+                    "options": [
+                        {
+                            "title": "PATH"
+                        },
+                        {
+                            "title": "HOME",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "TEMP"
+                        },
+                        {
+                            "title": "TMP"
+                        }
+                    ]
+                },
+                {
+                    "title": "What folder we add in the PATH environment variable?",
+                    "options": [
+                        {
+                            "title": "bin",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "lib"
+                        },
+                        {
+                            "title": "include"
+                        },
+                        {
+                            "title": "All of the above"
+                        }
+                    ]
+                }
+            ]
+        },
+        "XBiD8T2euM8": {
+            "questions": [
+                {
+                    "title": "Which of the following is not a valid programming language?",
+                    "options": [
+                        {
+                            "title": "C"
+                        },
+                        {
+                            "title": "C++"
+                        },
+                        {
+                            "title": "C#",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "All of the above"
+                        }
+                    ]
+                },
+                {
+                    "title": "Which of the following is not a valid programming language?",
+                    "options": [
+                        {
+                            "title": "Java"
+                        },
+                        {
+                            "title": "JavaScript"
+                        },
+                        {
+                            "title": "JScript",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "JQuery",
+                            "isCorrect": true
+                        }
+                    ]
+                },
+                {
+                    "title": "Which of the following is not a valid programming language?",
+                    "options": [
+                        {
+                            "title": "Python"
+                        },
+                        {
+                            "title": "PHP"
+                        },
+                        {
+                            "title": "Perl",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "All of the above"
+                        }
+                    ]
+                }
+            ]
+        },
+        "ybCFqBsaUkk": {
+            "questions": [
+                {
+                    "title": "what is dual boot?",
+                    "options": [
+                        {
+                            "title": "installing two operating systems in one computer",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "installing two operating systems in two computers"
+                        },
+                        {
+                            "title": "installing two operating systems in one computer and one in another computer"
+                        },
+                        {
+                            "title": "installing two operating systems in two computers and one in another computer"
+                        }
+                    ]
+                }
+            ]
+        },
+        "o4_QjfiDSRw": {
+            "questions": [
+                {
+                    "title": "Which features are available in this application?",
+                    "options": [
+                        {
+                            "title": "Blog post"
+                        },
+                        {
+                            "title": "Question answer"
+                        },
+                        {
+                            "title": "Post Commenting"
+                        },
+                        {
+                            "title": "All of the above",
+                            "isCorrect": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "Ygocvhy_28A": {
+            "questions": [
+                {
+                    "title": "C programming is a ___",
+                    "options": [
+                        {
+                            "title": "High level language"
+                        },
+                        {
+                            "title": "Low level language"
+                        },
+                        {
+                            "title": "Mid level language",
+                            "isCorrect": true
+                        },
+                        {
+                            "title": "None of the above"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

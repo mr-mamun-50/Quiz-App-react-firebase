@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Material+Icons+Outlined");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url("http://fonts.cdnfonts.com/css/product-sans");
 
 :root {
     --bodyBackground: #f2f4f8;
@@ -15,7 +15,7 @@
     padding: 0;
     box-sizing: border-box;
     color: var(--fontPrimary);
-    font-family: "Montserrat", sans-serif;
+    font-family: "Product Sans", sans-serif;
 }
 
 body {
@@ -59,5 +59,22 @@ h4 {
 @media only screen and (max-width: 1023px) {
     .column {
         grid-template-columns: 1fr;
+    }
+}
+
+/* videos component */
+.infinite-scroll-component {
+    width: 100%;
+    display: grid;
+    margin: 3rem auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    gap: 20px;
+    row-gap: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .infinite-scroll-component {
+        width: 90%;
     }
 }
