@@ -1,5 +1,5 @@
 import React, { useEffect, useReducer, useState } from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import useQuestions from '../../hooks/useQuestions'
 import Answers from '../Answers'
 import MiniPlayer from '../MiniPlayer'
@@ -7,6 +7,7 @@ import ProgressBar from '../ProgressBar'
 import _ from 'lodash'
 import { useAuth } from '../../contexts/AuthContext'
 import { getDatabase, ref, set } from 'firebase/database'
+import loadingPlay from '../../assets/images/loading_play_4.gif';
 
 const initialState = null;
 
@@ -38,6 +39,8 @@ export default function Quiz() {
     const [qna, dispatch] = useReducer(reducer, initialState);
     const { currentUser } = useAuth();
     let navigate = useNavigate();
+    let { state: videoTitle } = useLocation();
+
 
     useEffect(() => {
         dispatch({
@@ -80,29 +83,24 @@ export default function Quiz() {
             [id]: qna
         });
 
-        navigate({
-            pathname: `/result/${id}`,
-            state: {
-                qna,
-            }
-        });
+        navigate(`/result/${id}`, { state: { qna } });
     }
 
     // calculate percentage of progress
-    const percentage = questions.length > 0 ? ((currentQuestion + 1) / questions.length) * 100 : 0;
+    const percentage = questions.length > 0 ? Math.round(((currentQuestion + 1) / questions.length) * 100) : 0;
 
     return (
         <>
-            {loading && <div>Loading...</div>}
+            {loading && <img src={loadingPlay} alt="Loading..." />}
             {error && <div>There was an error!</div>}
             {!loading && !error && qna && qna.length > 0 && (
                 <>
                     <h1>{qna[currentQuestion].title}</h1>
                     <h4>Question can have multiple answers</h4>
 
-                    <Answers options={qna[currentQuestion].options} handleChange={handleAnswerChange} />
+                    <Answers input={true} options={qna[currentQuestion].options} handleChange={handleAnswerChange} />
                     <ProgressBar next={nextQuestion} prev={prevQuestion} progress={percentage} submit={submit} />
-                    <MiniPlayer />
+                    <MiniPlayer id={id} title={videoTitle} />
                 </>
             )}
         </>

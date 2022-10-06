@@ -16,14 +16,15 @@ export default function Videos() {
                 <InfiniteScroll dataLength={videos.length} hasMore={hasMore} loader={<img src={loadingPlay} alt="Loading..." />} next={() => setPage(page + 8)}>
                     {videos.map((video) =>
                         video.noq ? (
-                            <Link to={`/quiz/${video.youtubeID}`} key={video.youtubeID}>
+                            <Link to={`/quiz/${video.youtubeID}`} key={video.youtubeID} state={video.title}>
                                 <Video title={video.title} id={video.youtubeID} noq={video.noq} />
                             </Link>
                         ) : (
                             <Video title={video.title} id={video.youtubeID} noq={video.noq} key={video.youtubeID} />
                         ))}
                 </InfiniteScroll>
-            )}
+            )
+            }
 
             <div className='infinite-scroll-component'>
                 {!loading && videos.length === 0 && <div>No data found!</div>}
