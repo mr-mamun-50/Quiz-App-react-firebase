@@ -30,6 +30,7 @@ export default function useVideoList(page) {
                     setVideos((prevVideos) => {
                         return [...prevVideos, ...Object.values(snapshot.val())]
                     });
+                    // setVideos(Object.values(snapshot.val()));
                 } else {
                     // data doesn't exist
                     setHasMore(false);
@@ -41,9 +42,7 @@ export default function useVideoList(page) {
             }
         }
 
-        setTimeout(() => {
-            fetchVideos();
-        }, 1000);
+        fetchVideos();
 
     }, [page]);
 

@@ -14,8 +14,6 @@ export default function Result() {
 
     const { loading, error, answers } = useAnswers(id);
 
-    console.log(qna);
-
     function calculate() {
         let score = 0;
 

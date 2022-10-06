@@ -10,6 +10,8 @@ export default function Videos() {
     const [page, setPage] = useState(1);
     const { loading, error, videos, hasMore } = useVideoList(page);
 
+    console.log(videos)
+
     return (
         <div>
             {videos.length > 0 && (
